@@ -1,0 +1,379 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.nav {
+    color: antiquewhite;
+    background-color: rgb(32, 1, 61);
+    position: fixed;
+    z-index: 1;
+}
+
+.nav ul {
+    padding-left: 1300px;
+}
+
+.nav ul li {
+    display: inline-flex;
+}
+.nav ul li a:hover{
+    color:black;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(226, 25, 25);
+}
+
+.nav1 {
+    color: azure;
+    text-decoration: none;
+    padding: 17px 37px 17px;
+    font-size: 22px;
+    font-weight: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* #mid {
+    background-color: rgb(86, 88, 88);
+} */
+.photo {
+    padding: 140px 0px 140px 200px;
+}
+
+.photo img {
+    border-radius: 0px;
+    /* box-shadow: 13px 13px 27px 44px rgba(32, 27, 27, 0.3); */
+    box-shadow: rgba(0, 0, 0, 0.3) 22px 34px 45px,
+        rgba(0, 0, 0, 0.22) 0px 15px 34px;
+    height: 500px;
+    width: 370px;
+}
+
+.photobg img {
+    width: 100%;
+    height: 900px;
+}
+
+.discription {
+    text-shadow: rgba(0, 0, 0, 0.3) 5px 6px 8px, rgba(0, 0, 0, 0.22) 3px 6px 3px;
+}
+
+.discription p {
+    padding: 0px 300px 240px 250px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.discription h1 {
+    padding: 280px 60px 10px 250px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 35px;
+}
+.name1 {
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.3) 8px 8px 10px, rgba(0, 0, 0, 0.22) 8px 6px 5px;
+}
+.name1 h1,h2,h3 {
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.name1 h1 {
+    font-size: 60px;
+}
+
+.name1 h2 {
+    font-size: 30px;
+}
+
+.name1 h3 {
+    font-size: 45px;
+}
+
+#about {
+    display: inline-flex;
+}
+
+#skill {
+    /* background-image: url(g.jpeg);
+    background-repeat: no-repeat;
+    background-size:  100% 100%; */
+    background-color: black;
+    width: 100%;
+    height: 850px;
+}
+
+.skill1 {
+    padding-left: 300px;
+    padding-top: 90px;
+}
+
+.skill1 p {
+    color: azure;
+    font-size: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    text-shadow: rgba(252, 251, 251, 0.3) 8px 10px 10px,
+        rgba(176, 125, 211, 0.22) 8px 10px 5px;
+}
+
+.skill1 h2 {
+    padding-bottom: 25px;
+    padding-top: 50px;
+    /* text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px; */
+    color: white;
+    text-shadow: 8px 11px 7px rgba(231, 223, 223, 0.2),
+        0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+.skill1 div {
+    border-radius: 15px;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+}
+
+.skill {
+    background-color: rgb(28, 118, 192);
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 78%;
+}
+
+.javascript {
+    width: 70%;
+}
+
+.php {
+    width: 90%;
+}
+
+.mysql {
+    width: 70%;
+}
+
+.resume1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.resume1 h1 {
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 90px 0px 0px 900px;
+    text-shadow: rgba(7, 7, 7, 0.3) 8px 10px 10px,
+        rgba(73, 67, 77, 0.22) 8px 10px 5px;
+}
+.reshow {
+    width: 100%;
+    height: 1000px;
+}
+.redown button {
+    height: 30px;
+    width: 170px;
+    background-color: rgb(10, 10, 10);
+}
+.redown button a {
+    text-decoration: none;
+    color: white;
+}
+.redown button:hover {
+    background-color: rgb(71, 71, 75);
+    color: rgb(32, 31, 31);
+    font-weight: bold;
+}
+.ima img {
+    width: 300px;
+    height: 500px;
+    box-shadow: rgba(7, 7, 7, 0.3) 8px 10px 10px,rgba(73, 67, 77, 0.22) -8px -10px 5px;
+}
+.ima img:hover{
+    transition:ease-in;
+}
+.ima{
+    padding: 220px 0px 220px 400px;
+}
+.reshow{
+    display:inline-flex;
+}
+.heading h1{
+    font-size: 25px;
+    padding: 350px 90px 350px 250px;
+}
+.heading h1 p{
+    font-size: 20px;
+    padding: 40px 90px 350px 0px;
+}
+.redown button{
+    position: absolute;
+    top: 340%;
+    left: 47%;
+    box-shadow: rgba(7, 7, 7, 0.3) 8px 10px 10px,rgba(73, 67, 77, 0.22) 8px 10px 5px;
+    border-radius: 4px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    height: 900px;
+}
+.contact1{
+    display: flex;
+    height: 700px;
+    border: 1px solid rgb(252, 247, 247);
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.hh1{
+    height: 800px;
+}
+.hh1 h1{
+    padding: 58px 900px 50px 900px;
+    color: azure;
+    font-size: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-shadow: rgba(252, 251, 251, 0.3) 8px 10px 10px,
+        rgba(176, 125, 211, 0.22) 8px 10px 5px;
+}
+.dd1 img{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 413%;
+    left: 18%;
+    border-radius: 7%;
+}
+.dd2 form{
+    display: flex;
+    flex-direction: column;
+    padding: 105px 110px 45px 1000px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dd2 form label{
+    padding: 0px 0px 10px 0px;
+    color: black;
+    font-size: 19px;
+}
+.dd2 form input{
+    font-size: 15px;
+    padding: 10px 0px 10px 14px;
+    margin: 10px 0px 25px 0px;
+    width: 700px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.dd2 form button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 5, 32);
+    padding: 13px 0px 13px 0px;
+    margin: 10px 0px 25px 0px;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+}
+.dd2 form button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(163, 163, 163);
+    cursor: pointer;
+}
+/* .btt:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 10%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform:translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btt:hover::after{
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+} */
+input{
+    border-radius: 20px;
+}
+textarea{
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    padding: 20px 0px 10px 20px;
+    margin: 10px 0px 25px 0px;
+    width: 700px;
+    letter-spacing: 1px;
+}
+
+.foot1 {
+    background-color: aqua;
+    padding-bottom: 0px;
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    background-color: gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+.foot2{
+    width: 60%;
+}
+.foot2 h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 110px 0px 20px 200px;
+}
+.foot2 h1 p{
+    font-size: 18px;
+    padding: 10px 100px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secfoot h1{
+    padding: 90px 20px 20px 15px;
+}
+.secfoot input{
+    width: 390px;
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+}
+.but1{
+    font-size: 15px;
+    border-radius: 16px;
+    padding: 10px 16px 10px 16px;
+    margin: 15px 10px 10px 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.but1:hover{
+    background-color: rgb(113, 115, 119);
+    color: black;
+}
